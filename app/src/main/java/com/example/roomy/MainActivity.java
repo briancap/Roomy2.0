@@ -33,9 +33,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                        .setAction("Action", null).show();
-
-                //NavController test = Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment);
-                //test.navigate(R.id.nav_gallery);
             }
         });
 
@@ -53,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+        navController.navigate(R.id.nav_gallery);
     }
 
 
