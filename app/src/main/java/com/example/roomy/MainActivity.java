@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-        navController.navigate(R.id.nav_gallery);
+       // navController.navigate(R.id.nav_gallery);
     }
 
 
