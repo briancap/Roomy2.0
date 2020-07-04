@@ -35,6 +35,6 @@ public class AdapterGridItem extends RecyclerView.Adapter<AdapterGridItem.ViewHo
 
     @Override
     public int getItemCount() {
-        return 9;
+        return 4;
     }
 }

@@ -14,4 +14,5 @@
 
     <!-- Home Page -->
     <string name="title_bills">Bills</string>
+    <string name="title_chores">Chroes</string>
 </resources>
